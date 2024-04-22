@@ -5,7 +5,9 @@ import java.util.List;
 
 class Question implements Serializable {
 	
-    private String questionText;
+	private static final long serialVersionUID = 1L;
+	
+	private String questionText;
     private List<Answer> answers;
     private String category;
 
