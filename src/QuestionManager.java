@@ -155,26 +155,28 @@ public class QuestionManager {
 			System.out.println("Fehler beim Öffnen des Dateihandles für questions.ser.");
 		} 
 		
-		this.questions.clear();
-		
-		try {
-			while (true) {
-				this.questions.add((Question) ois.readObject());
-			}
-		} catch (EOFException eof) {
+		if (ois!=null ) {
+			this.questions.clear();
 			
-		} catch (ClassNotFoundException cnfe) {
-			System.out.println("Klassendefinition Question/Answer nicht gefunden.");
-		} catch (IOException e) {
-			System.out.println("Fehler beim Lesen einer Frage.");
-			e.printStackTrace();
-		}
-		
-		finally {
 			try {
-				ois.close();
+				while (true) {
+					this.questions.add((Question) ois.readObject());
+				}
+			} catch (EOFException eof) {
+				
+			} catch (ClassNotFoundException cnfe) {
+				System.out.println("Klassendefinition Question/Answer nicht gefunden.");
 			} catch (IOException e) {
-				System.out.println("Fehler beim Schließen des Dateihandles.");
+				System.out.println("Fehler beim Lesen einer Frage.");
+				e.printStackTrace();
+			}
+			
+			finally {
+				try {
+					ois.close();
+				} catch (IOException e) {
+					System.out.println("Fehler beim Schließen des Dateihandles.");
+				}
 			}
 		}
 	}
