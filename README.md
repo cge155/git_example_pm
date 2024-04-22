@@ -11,7 +11,7 @@ Git Beispielprojekt PM SoSe2024 basierend auf dem QuizGame aus OOP2
 - Add menu (in Class QuizGame) (create player, choose category, play quiz game, end quiz game) (V_0_4)
 - Award points for correctly answered questions
 - Award points also based on the time taken. (e.g., full points for response time < 1 sec, 10% less for each additional second).
-- Add PlayerManager
+- Add PlayerManager (V_0_5)
 - Create leaderboard
 - Catch unexpected inputs during answer submission.
 - Catch unexpected inputs in the menu.

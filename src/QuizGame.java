@@ -6,11 +6,15 @@ public class QuizGame {
 	public static Scanner scanner;
 	private static Player player;
 	private static QuestionManager questionManager;
+	private static PlayerManager playerManager;
 	private static String category = "Sport";
 	
     public static void main(String[] args) {
         // Spieler anlegen
         player = new Player("Christian");
+        playerManager = new PlayerManager();
+        playerManager.addPlayer(player);        
+        
         questionManager = new QuestionManager();
         
         System.out.println("********************************************");
