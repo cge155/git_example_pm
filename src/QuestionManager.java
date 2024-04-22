@@ -82,33 +82,36 @@ public class QuestionManager {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
-		Scanner scanner = new Scanner(file);
-		scanner.useDelimiter(Pattern.compile("(;|\\n)"));
 		
-		// Read questions
-		while (scanner.hasNext()) {
+		if (file!=null) {
+
+			Scanner scanner = new Scanner(file);
+			scanner.useDelimiter(Pattern.compile("(;|\\n)"));
 			
-			String questionText = scanner.next();
-			String category = scanner.next();
-			
-			Question q = new Question(questionText, category);
-			
-			for (int i=1; i<=4; i++) {
-				q.addAnswer(new Answer(scanner.next(), scanner.nextBoolean()));
+			// Read questions
+			while (scanner.hasNext()) {
+				
+				String questionText = scanner.next();
+				String category = scanner.next();
+				
+				Question q = new Question(questionText, category);
+				
+				for (int i=1; i<=4; i++) {
+					q.addAnswer(new Answer(scanner.next(), scanner.nextBoolean()));
+				}
+				
+				this.questions.add(q);
 			}
-			
-			this.questions.add(q);
-		}
-			
-	
-		// Close scanner and file handle
-		scanner.close();
-		try {
-			file.close();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+				
+		
+			// Close scanner and file handle
+			scanner.close();
+			try {
+				file.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 	}
 	
@@ -155,26 +158,28 @@ public class QuestionManager {
 			System.out.println("Fehler beim Öffnen des Dateihandles für questions.ser.");
 		} 
 		
-		this.questions.clear();
-		
-		try {
-			while (true) {
-				this.questions.add((Question) ois.readObject());
-			}
-		} catch (EOFException eof) {
+		if (ois!=null ) {
+			this.questions.clear();
 			
-		} catch (ClassNotFoundException cnfe) {
-			System.out.println("Klassendefinition Question/Answer nicht gefunden.");
-		} catch (IOException e) {
-			System.out.println("Fehler beim Lesen einer Frage.");
-			e.printStackTrace();
-		}
-		
-		finally {
 			try {
-				ois.close();
+				while (true) {
+					this.questions.add((Question) ois.readObject());
+				}
+			} catch (EOFException eof) {
+				
+			} catch (ClassNotFoundException cnfe) {
+				System.out.println("Klassendefinition Question/Answer nicht gefunden.");
 			} catch (IOException e) {
-				System.out.println("Fehler beim Schließen des Dateihandles.");
+				System.out.println("Fehler beim Lesen einer Frage.");
+				e.printStackTrace();
+			}
+			
+			finally {
+				try {
+					ois.close();
+				} catch (IOException e) {
+					System.out.println("Fehler beim Schließen des Dateihandles.");
+				}
 			}
 		}
 	}
