@@ -1,0 +1,215 @@
+Was ist die Hauptstadt von Deutschland?;Geografie
+Berlin;true
+München;false
+Hamburg;false
+Köln;false
+Wer schrieb das Buch 'Faust'?;Literatur
+Johann Wolfgang von Goethe;true
+Friedrich Schiller;false
+Heinrich Heine;false
+Thomas Mann;false
+Was ist die chemische Formel für Wasser?;Chemie
+H2O;true
+CO2;false
+NaCl;false
+C6H12O6;false
+Welcher Planet ist der vierte in unserem Sonnensystem?;Astronomie
+Mars;true
+Venus;false
+Jupiter;false
+Saturn;false
+Wer malte die Mona Lisa?;Kunst
+Leonardo da Vinci;true
+Vincent van Gogh;false
+Pablo Picasso;false
+Michelangelo;false
+Was ist die Hauptzutat in Pizza?;Kulinarik
+Teig;false
+Käse;false
+Tomatensauce;true
+Salami;false
+In welchem Jahr landete der erste Mensch auf dem Mond?;Geschichte
+1969;true
+1973;false
+1958;false
+1985;false
+Wer ist der berühmteste Detektiv der Weltliteratur?;Literatur
+Sherlock Holmes;true
+Hercule Poirot;false
+Miss Marple;false
+Columbo;false
+Wie viele Kontinente gibt es auf der Welt?;Geografie
+Sieben;true
+Fünf;false
+Neun;false
+Drei;false
+Was ist die längste Fluss Europas?;Geografie
+Wolga;true
+Donau;false
+Rhein;false
+Themse;false
+Wie heißt die Hauptstadt von Spanien?;Geografie
+Madrid;true
+Barcelona;false
+Valencia;false
+Sevilla;false
+Wer hat die Relativitätstheorie entwickelt?;Physik
+Albert Einstein;true
+Isaac Newton;false
+Stephen Hawking;false
+Galileo Galilei;false
+Wie nennt man die kleinste Einheit von digitalen Daten?;Informatik
+Bit;true
+Byte;false
+Megabyte;false
+Kilobyte;false
+Wer war der erste Bundeskanzler der Bundesrepublik Deutschland?;Geschichte
+Konrad Adenauer;true
+Willy Brandt;false
+Helmut Kohl;false
+Gerhard Schröder;false
+Wer schrieb das Drama 'Hamlet'?;Literatur
+William Shakespeare;true
+Johann Wolfgang von Goethe;false
+Friedrich Schiller;false
+Henrik Ibsen;false
+Wie viele Seiten hat ein gleichseitiges Dreieck?;Mathematik
+Drei;true
+Vier;false
+Fünf;false
+Sechs;false
+Wer ist der Maler des Gemäldes 'Die Nachtwache'?;Kunst
+Rembrandt;true
+Vincent van Gogh;false
+Pablo Picasso;false
+Leonardo da Vinci;false
+Wie viele Sekunden hat eine Stunde?;Mathematik
+3600;true
+60;false
+600;false
+360;false
+Was ist die chemische Formel für Kohlendioxid?;Chemie
+CO2;true
+H2O;false
+NaCl;false
+C6H12O6;false
+Wer war der erste Mensch im Weltraum?;Astronomie
+Juri Gagarin;true
+Neil Armstrong;false
+Buzz Aldrin;false
+Alan Shepard;false
+Wie viele Spieler hat ein Basketball-Team auf dem Feld?;Sport
+Fünf;true
+Sechs;false
+Sieben;false
+Acht;false
+Welches Land hat die meisten Einwohner weltweit?;Geografie
+China;true
+Indien;false
+USA;false
+Brasilien;false
+Wer schrieb das Buch 'Der Name der Rose'?;Literatur
+Umberto Eco;true
+Gabriel García Márquez;false
+Haruki Murakami;false
+J.K. Rowling;false
+Wie heißt die Hauptstadt von Italien?;Geografie
+Rom;true
+Mailand;false
+Neapel;false
+Venedig;false
+Wie nennt man die kleinste Einheit von Speicherplatz auf einem Computer?;Informatik
+Bit;true
+Byte;false
+Megabyte;false
+Kilobyte;false
+Wer war der erste Präsident der Vereinigten Staaten von Amerika?;Geschichte
+George Washington;true
+Thomas Jefferson;false
+Abraham Lincoln;false
+John F. Kennedy;false
+Welcher Planet ist der drittgrößte in unserem Sonnensystem?;Astronomie
+Erde;true
+Venus;false
+Mars;false
+Jupiter;false
+Wer malte das Gemälde 'Die Sonnenblumen'?;Kunst
+Vincent van Gogh;true
+Pablo Picasso;false
+Leonardo da Vinci;false
+Claude Monet;false
+Welches Element hat das chemische Symbol 'Fe'?;Chemie
+Eisen;true
+Gold;false
+Silber;false
+Kupfer;false
+Wer schrieb das Buch 'Die Verwandlung'?;Literatur
+Franz Kafka;true
+Fyodor Dostoyevsky;false
+Leo Tolstoy;false
+James Joyce;false
+Was ist die Hauptfunktion in vielen Programmiersprachen?;Programmieren
+main();true
+start();false
+haupt();false
+begin();false
+Was ist die Bedeutung von 'IDE' in der Softwareentwicklung?;Programmieren
+Integrierte Entwicklungsumgebung;true
+Interaktive Datenübertragung;false
+Initialisierung und Deklaration;false
+Intrinsische Datenerweiterung;false
+Was ist ein 'Array' in der Programmierung?;Programmieren
+Eine Datenstruktur zur Speicherung mehrerer Elemente desselben Datentyps;true
+Ein Befehl zum Beenden des Programms;false
+Ein spezieller Operator zum Vergleich von Werten;false
+Ein Algorithmus zur Sortierung von Daten;false
+Was ist ein 'Compiler'?;Programmieren
+Ein Programm, das Quellcode in Maschinencode übersetzt;true
+Ein Werkzeug zum Testen von Software;false
+Eine Datenbank für Programmiersprachen;false
+Ein Algorithmus zur Datenkompression;false
+Welche Programmiersprache wird häufig für die Webentwicklung verwendet?;Programmieren
+JavaScript;true
+Python;false
+C++;false
+Java;false
+Was ist eine 'Klasse' in der objektorientierten Programmierung?;Programmieren
+Eine Bauplan für Objekte, der Attribute und Methoden definiert;true
+Eine Sammlung von Variablen;false
+Ein spezieller Datentyp für ganze Zahlen;false
+Eine Anweisung zum Starten des Programms;false
+Was ist 'Version Control' in der Softwareentwicklung?;Programmieren
+Ein System zur Verwaltung von Änderungen im Quellcode;true
+Eine Methode zur Fehlerbehebung;false
+Ein Prozess zur Verbesserung der Benutzeroberfläche;false
+Eine Technik zur Code-Optimierung;false
+Was ist eine 'Schleife' in der Programmierung?;Programmieren
+Ein Kontrollstrukturelement zur Wiederholung von Anweisungen;true
+Eine Methode zur Datenübertragung;false
+Ein Operator zur Addition von Zahlen;false
+Eine Funktion zum Vergleich von Zeichenketten;false
+Was ist 'Debugging'?;Programmieren
+Der Prozess des Auffindens und Behebens von Fehlern im Quellcode;true
+Ein Algorithmus zur Datenverschlüsselung;false
+Eine Methode zur Code-Optimierung;false
+Ein Werkzeug zum Testen von Software;false
+Was ist eine 'Variable' in der Programmierung?;Programmieren
+Ein Speicherbereich für Daten, der einen Namen hat;true
+Ein Algorithmus zur Sortierung von Zahlen;false
+Eine Funktion zur Zeichenkettenmanipulation;false
+Ein Operator zur Multiplikation von Werten;false
+Wie lautet die Landeshauptstadt von Niedersachsen?;Geografie
+Hannover;true
+Braunschweig;false
+Osnabrück;false
+Göttingen;false
+Wer hat die Fußball-WM 2014 gewonnen?;Sport
+Deutschland;true
+Frankreich;false
+England;false
+Brasilien;false
+Was ist kein Hund aus Paw Patrol?;Unterhaltung
+Sky;false
+Marshall;false
+Rubble;false
+Rex;true
