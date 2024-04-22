@@ -82,33 +82,36 @@ public class QuestionManager {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
-		Scanner scanner = new Scanner(file);
-		scanner.useDelimiter(Pattern.compile("(;|\\n)"));
 		
-		// Read questions
-		while (scanner.hasNext()) {
+		if (file!=null) {
+
+			Scanner scanner = new Scanner(file);
+			scanner.useDelimiter(Pattern.compile("(;|\\n)"));
 			
-			String questionText = scanner.next();
-			String category = scanner.next();
-			
-			Question q = new Question(questionText, category);
-			
-			for (int i=1; i<=4; i++) {
-				q.addAnswer(new Answer(scanner.next(), scanner.nextBoolean()));
+			// Read questions
+			while (scanner.hasNext()) {
+				
+				String questionText = scanner.next();
+				String category = scanner.next();
+				
+				Question q = new Question(questionText, category);
+				
+				for (int i=1; i<=4; i++) {
+					q.addAnswer(new Answer(scanner.next(), scanner.nextBoolean()));
+				}
+				
+				this.questions.add(q);
 			}
-			
-			this.questions.add(q);
-		}
-			
-	
-		// Close scanner and file handle
-		scanner.close();
-		try {
-			file.close();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+				
+		
+			// Close scanner and file handle
+			scanner.close();
+			try {
+				file.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 	}
 	
